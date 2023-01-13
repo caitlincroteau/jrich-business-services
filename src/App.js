@@ -1,4 +1,4 @@
-import "./App.css";
+import "./styles/App.css";
 import logo from "./images/JRICH-logo.png";
 import CompanyDetails from "./components/CompanyDetails";
 import Services from "./components/Services";
