@@ -1,3 +1,3 @@
 export default function Navigation(props) {
-  return <div>Navigation goes here.</div>;
+  return <div class="text">Navigation goes here.</div>;
 }
