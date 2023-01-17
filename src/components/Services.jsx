@@ -2,13 +2,13 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
+import { CardGroup } from "react-bootstrap";
 
 export default function Services(props) {
   return (
     <Container fluid="md" className="text align-text center pt-5">
-      <Row>
-        <Col>
-          <Card >
+      <CardGroup>
+          <Card className="">
             <Card.Body>
             <Card.Header as="h5">Bookkeeping and Tax Filing</Card.Header>
               <Card.Text className="pt-3">
@@ -18,8 +18,6 @@ export default function Services(props) {
               </Card.Text>
             </Card.Body>
           </Card>
-        </Col>
-        <Col>
           <Card>
             <Card.Body>
               <Card.Header as="h5">Tax Seminars & Personal Consulting</Card.Header>
@@ -34,8 +32,7 @@ export default function Services(props) {
               </Card.Text>
             </Card.Body>
           </Card>
-        </Col>
-        <Col>
+
           <Card>
             <Card.Body>
             <Card.Header as="h5">CRA Troubleshooting</Card.Header>
@@ -46,8 +43,8 @@ export default function Services(props) {
               </Card.Text>
             </Card.Body>
           </Card>
-        </Col>
-      </Row>
+          </CardGroup>
+
     </Container>
   );
 }
