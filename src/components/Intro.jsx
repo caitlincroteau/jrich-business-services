@@ -13,7 +13,7 @@ export default function Intro(props) {
           to assist you in managing your finances for a better bottom line.
         </Col>
       </Row>
-      <Row>
+      <Row className="pb-3">
         <Col>
           To get started with our services, please fill out our online
           questionnaire below or contact us via phone or email.
