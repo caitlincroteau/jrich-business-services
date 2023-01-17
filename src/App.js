@@ -8,7 +8,7 @@ import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="home">
       <Navigation />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
