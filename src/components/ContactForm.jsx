@@ -6,8 +6,9 @@ import Button from "react-bootstrap/Button";
 
 export default function ContactForm(props) {
   return (
-    <Container className="p-3 ms-auto square border border-2 rounded text-start card-lrg-bkgrnd">
-      <Form>
+    <Container>
+      <h1 className="text-start pb-1 pt-3">Let's Talk!</h1>
+      <Form className="p-3 ms-auto square border border-2 rounded text-start card-lrg-bkgrnd">
         <Row className="mb-4 mt-4">
           <Form.Group as={Col} controlId="formBasicEmail">
             <Form.Label>First Name</Form.Label>
@@ -84,7 +85,9 @@ export default function ContactForm(props) {
 
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label>Questions or Comments:</Form.Label>
-          <Form.Control as="textarea" />
+          <Form.Control as="textarea"
+          rows={10}
+          name="questions" />
         </Form.Group>
 
         <Button variant="dark" type="submit">

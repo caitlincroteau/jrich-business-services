@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "./images/JRICH-brand-med-transp.png";
 import CompanyDetails from "./components/CompanyDetails";
 
-import Form from "./components/ContactForm";
+import ContactForm from "./components/ContactForm";
 import Navigation from "./components/Navigation";
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
         <img src={logo} className="pt-4 pb-2" alt="logo" />
       </header>
       <CompanyDetails />
+      <ContactForm />
     </div>
   );
 }
