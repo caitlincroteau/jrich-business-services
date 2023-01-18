@@ -7,8 +7,8 @@ import Col from "react-bootstrap/Col";
 
 export default function ContactInfo(props) {
   return (
-    <Container fluid="md" className="text p-3" id="contact">
-      <h1 className="text-start pb-1 pt-3">Contact Info</h1>
+    <Container fluid="md" className="text p-3 bg-light rounded mt-3 mb-5" id="contact">
+      <h1 className="pb-1 pt-3">Contact Us</h1>
       <Row className="p-1">
         <Col md="auto">
           {" "}
