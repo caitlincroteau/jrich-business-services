@@ -15,6 +15,8 @@ function App() {
         <img src={logo} className="pt-4 pb-2" alt="logo" />
       </header>
       <CompanyDetails />
+      <ContactInfo />
+      <ContactForm />
     </div>
   );
 }
