@@ -8,13 +8,16 @@ import Col from "react-bootstrap/Col";
 export default function ContactInfo(props) {
   return (
     <Container fluid="md" className="text p-3" id="contact">
-      <h1>Contact Info</h1>
+      <h1 className="text-start pb-1 pt-3">Contact Info</h1>
       <Row className="p-1">
         <Col md="auto">
           {" "}
           <img alt="" width="30px" height="30px" src={AddressIcon} />
         </Col>
-        <Col md="auto"> Suite 109, 3-11 Bellrose Drive, St. Albert, Alberta T8N 5C9</Col>
+        <Col md="auto">
+          {" "}
+          Suite 109, 3-11 Bellrose Drive, St. Albert, Alberta T8N 5C9
+        </Col>
       </Row>
       <Row className="p-1">
         <Col md="auto">
