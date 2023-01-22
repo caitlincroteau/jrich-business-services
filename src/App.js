@@ -2,6 +2,7 @@ import "./styles/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "./images/JRICH-brand-med-transp.png";
 import CompanyDetails from "./components/CompanyDetails";
+import Footer from "./components/Footer";
 
 import Navigation from "./components/Navigation";
 import ContactInfo from "./components/ContactInfo";
@@ -15,6 +16,7 @@ function App() {
       </header>
       <CompanyDetails />
       <ContactInfo />
+      <Footer />
     </div>
   );
 }

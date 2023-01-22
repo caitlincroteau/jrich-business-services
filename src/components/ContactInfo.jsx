@@ -8,7 +8,7 @@ import Col from "react-bootstrap/Col";
 export default function ContactInfo(props) {
   return (
     <Container
-      className="text align-text center  p-3 bg-light rounded mt-3 mb-5"
+      className="text align-text center p-3 bg-light rounded mt-3 mb-5"
       id="contact"
       style={{
         width: "fit-content",
