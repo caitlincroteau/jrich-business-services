@@ -5,6 +5,7 @@ import { CardGroup } from "react-bootstrap";
 export default function Services(props) {
   return (
     <Container fluid="md" className="text align-text center pt-4" id="services">
+      <h1>Services</h1>
       <CardGroup>
         <Card>
           <Card.Body>

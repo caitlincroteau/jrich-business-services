@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 export default function Intro(props) {
   return (
     <Container fluid="md" className="text align-text center">
+      <h1>JRich Business Services Inc.</h1>
       <Row className="pb-3">
         <Col>
           JRich Business Services Inc. is a company dedicated to providing you
