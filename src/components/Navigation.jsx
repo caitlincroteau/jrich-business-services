@@ -5,7 +5,7 @@ import Brand from "../images/JRICH-name.png";
 
 export default function Navigation(props) {
   return (
-    <Navbar bg="light" expand="lg" sticky="top">
+    <Navbar bg="light" expand="lg" sticky="top" className="text">
       <Container>
         <Navbar.Brand href="#home">
           <img
