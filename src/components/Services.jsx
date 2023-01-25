@@ -6,10 +6,10 @@ import { CardGroup } from "react-bootstrap";
 
 export default function Services(props) {
   return (
-    <Container fluid="md" className="text align-text center pt-4" id="services">
+    <Container fluid="md" className="text align-text center mt-4 pb-4" id="services">
       <Row className="justify-content-md-center">
         <Col md="auto">
-          <h1 className="p-1 pt-3 mb-3">Services</h1>
+          <h1 className="pt-3 mb-4">Services</h1>
         </Col>
       </Row>
       <CardGroup>
