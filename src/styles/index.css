@@ -12,8 +12,7 @@ body {
 
 .text {
   font-size: 18px;
-  font-family: "Cormorant Garamond", serif;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", "Cormorant Garamond", sans-serif, serif;
 }
 
 
