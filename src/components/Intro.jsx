@@ -27,6 +27,3 @@ export default function Intro(props) {
     </Container>
   );
 }
-
-// style={{
-//   "background-color": "salmon"}}
