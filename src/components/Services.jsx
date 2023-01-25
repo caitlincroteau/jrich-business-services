@@ -1,11 +1,17 @@
 import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import { CardGroup } from "react-bootstrap";
 
 export default function Services(props) {
   return (
     <Container fluid="md" className="text align-text center pt-4" id="services">
-      <h1>Services</h1>
+      <Row className="justify-content-md-center">
+        <Col md="auto">
+          <h1 className="p-1 pt-3 mb-3">Services</h1>
+        </Col>
+      </Row>
       <CardGroup>
         <Card>
           <Card.Body>
