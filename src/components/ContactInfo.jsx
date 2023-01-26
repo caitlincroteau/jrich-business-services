@@ -4,6 +4,7 @@ import PhoneIcon from "../images/JRICH-icon-phone.png";
 import AddressIcon from "../images/JRICH-icon-address.png";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Nav from "react-bootstrap/Nav";
 
 export default function ContactInfo(props) {
   return (
@@ -11,7 +12,7 @@ export default function ContactInfo(props) {
       className="text align-text center p-4 bg-light rounded mt-5 mb-5"
       id="contact"
       style={{
-        width: "fit-content"
+        width: "fit-content",
       }}
     >
       <Row className="justify-content-md-center">
@@ -32,10 +33,14 @@ export default function ContactInfo(props) {
       </Row>
       <Row className="p-1">
         <Col md="auto">
+          <a href="mailto:jerich@shaw.ca">
           {" "}
           <img alt="" width="30px" height="30px" src={EmailIcon} />
+          </a>
         </Col>
-        <Col md="auto">jerich@shaw.ca</Col>
+        <Col md="auto">
+        <Nav.Link href="mailto:jerich@shaw.ca">jerich@shaw.ca</Nav.Link>
+        </Col>
       </Row>
       <Row className="p-1">
         <Col md="auto">
