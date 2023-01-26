@@ -1,16 +1,12 @@
 body {
   margin: 0;
+  padding: 0;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
-
 .text {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Source Sans Pro", "Cormorant Garamond", sans-serif, serif;
 }
