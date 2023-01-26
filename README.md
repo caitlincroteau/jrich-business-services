@@ -1,3 +1,7 @@
 ## JRich Business Services Inc.
 
-JRich Business Services Inc. is a company dedicated to providing you with efficient business solutions adapted to your specific needs.
+I built this minimalist website using React for a small business in St. Albert, Alberta.
+
+![JRich Logo](src/images/JRICH-brand-med-transp.png)
+
+*"JRich Business Services Inc. is a company dedicated to providing you with efficient business solutions adapted to your specific needs."*
