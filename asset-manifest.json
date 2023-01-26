@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/jrich-business-services/static/css/main.b99eda91.css",
+    "main.js": "/jrich-business-services/static/js/main.ba0a1d54.js",
+    "static/js/787.fe34c442.chunk.js": "/jrich-business-services/static/js/787.fe34c442.chunk.js",
+    "static/media/JRICH-icon-address.png": "/jrich-business-services/static/media/JRICH-icon-address.12ccb85b8f510cb8db26.png",
+    "static/media/JRICH-icon-phone.png": "/jrich-business-services/static/media/JRICH-icon-phone.1fc8eb6b3c8e7f1d790e.png",
+    "static/media/JRICH-icon-email.png": "/jrich-business-services/static/media/JRICH-icon-email.57cb6f10940d124e1366.png",
+    "static/media/JRICH-brand-med-transp.png": "/jrich-business-services/static/media/JRICH-brand-med-transp.04a552acc64f4db836dc.png",
+    "index.html": "/jrich-business-services/index.html",
+    "main.b99eda91.css.map": "/jrich-business-services/static/css/main.b99eda91.css.map",
+    "main.ba0a1d54.js.map": "/jrich-business-services/static/js/main.ba0a1d54.js.map",
+    "787.fe34c442.chunk.js.map": "/jrich-business-services/static/js/787.fe34c442.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b99eda91.css",
+    "static/js/main.ba0a1d54.js"
+  ]
+}
