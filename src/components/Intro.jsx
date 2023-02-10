@@ -21,7 +21,14 @@ export default function Intro(props) {
       </Row>
       <Row className="pb-3">
         <Col>
-          To get started with our services, please <a href="#contact" className="link-dark">contact us</a> via phone or email.
+          To get started with our services, please{" "}
+          <a
+            href="#contact"
+            className="link-dark fst-italic text-decoration-none"
+          >
+            contact us
+          </a>{" "}
+          via phone or email.
         </Col>
       </Row>
     </Container>
