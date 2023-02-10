@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Nav from "react-bootstrap/Nav";
 
 export default function Intro(props) {
   return (
@@ -20,8 +21,8 @@ export default function Intro(props) {
       </Row>
       <Row className="pb-3">
         <Col>
-          To get started with our services, please fill out our online
-          questionnaire below or contact us via phone or email.
+          To get started with our services, please{" "}
+          <Nav.Link href="#contact">contact us</Nav.Link> via phone or email.
         </Col>
       </Row>
     </Container>
