@@ -17,7 +17,7 @@ export default function ContactInfo(props) {
     >
       <Row className="justify-content-md-center">
         <Col md="auto">
-          <h1 className="pt-3 mb-4 border-bottom">Contact Us</h1>
+          <h1 className="mb-4 border-bottom">Contact Us</h1>
         </Col>
       </Row>
 
@@ -34,12 +34,12 @@ export default function ContactInfo(props) {
       <Row className="p-1">
         <Col md="auto">
           <a href="mailto:jerich@shaw.ca">
-          {" "}
-          <img alt="" width="30px" height="30px" src={EmailIcon} />
+            {" "}
+            <img alt="" width="30px" height="30px" src={EmailIcon} />
           </a>
         </Col>
         <Col md="auto">
-        <Nav.Link href="mailto:jerich@shaw.ca">jerich@shaw.ca</Nav.Link>
+          <Nav.Link href="mailto:jerich@shaw.ca">jerich@shaw.ca</Nav.Link>
         </Col>
       </Row>
       <Row className="p-1">
