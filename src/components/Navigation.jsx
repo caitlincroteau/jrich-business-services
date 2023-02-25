@@ -5,7 +5,13 @@ import Brand from "../images/JRICH-name.png";
 
 export default function Navigation(props) {
   return (
-    <Navbar bg="white" expand="lg" sticky="top" className="text">
+    <Navbar
+      collapseOnSelect
+      bg="white"
+      expand="sm"
+      sticky="top"
+      className="text"
+    >
       <Container>
         <Navbar.Brand href="#home">
           <img
@@ -15,10 +21,13 @@ export default function Navigation(props) {
             className="d-inline-block align-top"
           />
         </Navbar.Brand>
-        <Nav className="me-auto">
-          <Nav.Link href="#services">Services</Nav.Link>
-          <Nav.Link href="#contact">Contact</Nav.Link>
-        </Nav>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#services">Services</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
       </Container>
     </Navbar>
   );
