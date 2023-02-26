@@ -8,7 +8,7 @@ export default function Header(props) {
         src={logo}
         className="pt-4 pb-2"
         alt="logo"
-        style={{ width: "380px" }}
+        style={{ width: "350px" }}
       />
     </Container>
   );
