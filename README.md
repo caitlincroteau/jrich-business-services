@@ -1,6 +1,6 @@
 ## JRich Business Services Inc.
 
-I built this minimalist website using React and GitHub Pages for a small business in St. Albert, Alberta.
+I built this single-page, minimalist, informational website using React and GitHub Pages for a small business in St. Albert, Alberta.
 
 You can view the live site at [www.jrichbusiness.com](https://www.jrichbusiness.com/)
 
