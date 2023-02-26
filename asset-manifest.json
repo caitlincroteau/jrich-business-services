@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b99eda91.css",
+    "main.css": "/static/css/main.b2dec526.css",
     "main.js": "/static/js/main.8d9cd5ac.js",
     "static/js/787.fe34c442.chunk.js": "/static/js/787.fe34c442.chunk.js",
     "static/media/JRICH-icon-address.png": "/static/media/JRICH-icon-address.12ccb85b8f510cb8db26.png",
@@ -8,12 +8,12 @@
     "static/media/JRICH-icon-email.png": "/static/media/JRICH-icon-email.57cb6f10940d124e1366.png",
     "static/media/JRICH-brand-med-transp.png": "/static/media/JRICH-brand-med-transp.04a552acc64f4db836dc.png",
     "index.html": "/index.html",
-    "main.b99eda91.css.map": "/static/css/main.b99eda91.css.map",
+    "main.b2dec526.css.map": "/static/css/main.b2dec526.css.map",
     "main.8d9cd5ac.js.map": "/static/js/main.8d9cd5ac.js.map",
     "787.fe34c442.chunk.js.map": "/static/js/787.fe34c442.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b99eda91.css",
+    "static/css/main.b2dec526.css",
     "static/js/main.8d9cd5ac.js"
   ]
 }
